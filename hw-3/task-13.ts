@@ -1,4 +1,4 @@
-let direction = prompt('Введите сторону света:');
+let direction = 'восток';
 
 switch (direction) {
     case 'юг':
