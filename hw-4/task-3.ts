@@ -1,6 +1,6 @@
- let myString = "Hello world";
- let positionOf = 15;
+ let inputString = "Hello world";
+ let positionIndex = 15;
 
- if (positionOf >= myString.length) {
+ if (positionIndex >= inputString.length) {
     console.log("Вы вышли за границу");
  }

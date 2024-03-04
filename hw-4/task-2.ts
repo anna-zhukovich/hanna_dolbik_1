@@ -1,5 +1,5 @@
-let str1 = 'я учу typescript!';
-let contain = 'учу';
-let position = str1.indexOf(contain);
+let mainString = 'я учу typescript!';
+let subString = 'учу';
+let position = mainString.indexOf(subString);
 
-str1.includes(contain) ? console.log("Позиция подстроки 'учу':", position) : console.log('Данной подстроки нет');
+console.log(mainString.includes(subString) ? `Позиция подстроки '${subString}': ${position}` : 'Данной подстроки нет');

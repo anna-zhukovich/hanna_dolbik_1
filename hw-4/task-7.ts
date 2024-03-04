@@ -1,4 +1,4 @@
-let myString4 = '                я учу typescript!                ';
+let secondSentance = '                я учу typescript!                ';
 
-console.log(myString4.trim());
+console.log(secondSentance.trim());
 

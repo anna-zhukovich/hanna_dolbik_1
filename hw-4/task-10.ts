@@ -1,8 +1,8 @@
-let myNumber6 = 3.74159;
+let secondFloatingNumber = 3.74159;
 
-console.log(Math.floor(myNumber6));
-console.log(Math.ceil(myNumber6));
-console.log(Math.round(myNumber6));
+console.log(Math.floor(secondFloatingNumber));
+console.log(Math.ceil(secondFloatingNumber));
+console.log(Math.round(secondFloatingNumber));
 
 
 

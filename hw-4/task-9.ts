@@ -1,7 +1,7 @@
 
-let myNumber5 = 6;
+let integerNumber = 6;
 
-Number.isInteger(myNumber5) ? console.log(myNumber5) : console.log(Math.floor(myNumber5));
+Number.isInteger(integerNumber) ? console.log(integerNumber) : console.log(Math.floor(integerNumber));
 
 
 

@@ -1,4 +1,13 @@
-let user1 = "Hanna";
-let surname = "Dolbik";
+let myfirst_name = "Hanna";
+let mysecond_name = "Dolbik";
+let str_Result = "Привет " + myfirst_name + " " + mysecond_name;
 
-console.log(("Привет " + user1 + " " + surname + " ").repeat(5));
+let isUpperCase = true;
+for(let i = 0; i < 5; i++) {
+    if (isUpperCase === true) {
+        console.log(str_Result.toUpperCase())
+    } else {
+        console.log(str_Result.toLowerCase())
+    }
+    isUpperCase = !isUpperCase;
+}
