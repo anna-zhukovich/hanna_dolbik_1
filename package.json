@@ -32,6 +32,15 @@
     "hw-4:task-12": "npx ts-node hw-4/task-12.ts",
     "hw-4:task-14": "npx ts-node hw-4/task-14.ts",
     "hw-4:task-15": "npx ts-node hw-4/task-15.ts",
-    "hw-4:task-16": "npx ts-node hw-4/task-16.ts"
+    "hw-4:task-16": "npx ts-node hw-4/task-16.ts",
+    "hw-5:task-1": "npx ts-node hw-5/task-1.ts",
+    "hw-5:task-2": "npx ts-node hw-5/task-2.ts",
+    "hw-5:task-3": "npx ts-node hw-5/task-3.ts",
+    "hw-5:task-4": "npx ts-node hw-5/task-4.ts",
+    "hw-5:task-5": "npx ts-node hw-5/task-5.ts",
+    "hw-5:task-6": "npx ts-node hw-5/task-6.ts",
+    "hw-5:task-7": "npx ts-node hw-5/task-7.ts",
+    "hw-5:advanced-task-1": "npx ts-node hw-5/advanced-task-1.ts",
+    "hw-5:advanced-task-2": "npx ts-node hw-5/advanced-task-2.ts"
   }
 }
