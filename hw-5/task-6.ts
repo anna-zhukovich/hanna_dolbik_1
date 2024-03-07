@@ -1,4 +1,4 @@
-function fooboo(boolValue: boolean, foo: () => void, boo: () => void): void {
+function  getCallBack(boolValue: boolean, foo: () => void, boo: () => void): void {
     boolValue ? foo() : boo();
 }
 
@@ -10,5 +10,5 @@ function call2() {
     console.log('Call2');
 }
 
-fooboo(true, call1, call2);
-fooboo(false, call1, call2);
+getCallBack(true, call1, call2);
+getCallBack(false, call1, call2);
