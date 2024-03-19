@@ -1,24 +1,19 @@
-function processPerson(obj: {name?: string, surname?: string, age?: string}) {
-    const name = obj.name || ' No_name';
-    const surname = obj.surname || 'No_surname';
-    const age = obj.age || '? лет';
-    return { name, surname, age };
+function processObject(obj: { name?: string, surname?: string, age?: string }): [string, string, string] {
+    const { name = 'Аноном', surname = 'Анонимович', age = '? лет' } = obj;
+    return [name, surname, age];
 }
 
 
-const processPersonArrow = (obj: {name?: string, surname?: string, age?: string}) => {
-    const name = obj.name || 'No_name';
-    const surname = obj.surname || 'No_surname';
-    const age = obj.age || '? лет';
-    return { name, surname, age };
-};
+//const processObjectArrow = (obj: { name?: string, surname?: string, age?: string }): [string, string, string] => {
+//   const { name = 'Аноном', surname = 'Анонимович', age = '? лет' } = obj;
+//   return [name, surname, age];
+//};
 
 
-const person1 = {name: 'Петр', surname: 'Петров', age: '20 лет'};
-const person2 = {name: 'Иван'};
+const obj: { name?: string, surname?: string, age?: string } = { name: 'Петр', surname: 'Петров', age: '20 лет' };
+const [name1, surname1, age1] = processObject(obj);
+console.log(name1, surname1, age1); 
 
-console.log(processPerson(person1));
-console.log(processPerson(person2)); 
-
-console.log(processPersonArrow(person1)); 
-console.log(processPersonArrow(person2));
+const obj2: { name?: string, surname?: string, age?: string } = { name: 'Мария' };
+const [name2, surname2, age2] = processObject(obj2);
+console.log(name2, surname2, age2); 
