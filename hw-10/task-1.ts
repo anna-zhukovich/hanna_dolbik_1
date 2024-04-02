@@ -18,7 +18,7 @@ class SportCar extends Car{
         this.carCost = carCost;
     }
     getInfo(): any {
-        return `This is ${this.brand}`;
+        return `This is ${this.brand}. It has ${this.type} engine and max speed equal to ${this.maxSpeed}. Approximetly cost of the car is ${this.carCost}.`;
     }
 }
 
@@ -32,7 +32,7 @@ class LuxuryCar extends Car{
         this.carCost = carCost;
     }
     getAddInfo(): any {
-        return `It has ${this.type} engine and max speed equal to ${this.maxSpeed}. Approximetly cost of the car is ${this.carCost}.`
+        return `This is ${this.brand}. It has ${this.type} engine and max speed equal to ${this.maxSpeed}. Approximetly cost of the car is ${this.carCost}.`
     }
 }
 
