@@ -69,6 +69,9 @@
     "hw-8:task-9": "npx ts-node hw-8/task-9.ts",
     "hw-8:task-10": "npx ts-node hw-8/task-10.ts",
     "hw-8:task-11": "npx ts-node hw-8/task-11.ts",
-    "hw-9:task-1": "npx ts-node hw-9/task-1.ts"
+    "hw-9:task-1": "npx ts-node hw-9/task-1.ts",
+    "hw-11:task-1.1": "npx ts-node hw-11/task-1.2.ts",
+    "hw-11:task-1.2": "npx ts-node hw-11/task-1.3.ts",
+    "hw-11:task-2": "npx ts-node hw-11/task-2.1.ts"
   }
 }
