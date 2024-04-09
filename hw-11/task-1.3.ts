@@ -24,9 +24,8 @@ async function getPosts(ids: Array<number>) {
 
 const postIds = ["р" as any, 23, 7, 3];
 getPosts(postIds)
-    .then(() => {
-        console.log('All posts loaded successfully');
-    })
+    .then(
+        (response: any) => response.json(),)
     .catch(error => {
         console.error('Failed to load posts:', error.message);
     });
