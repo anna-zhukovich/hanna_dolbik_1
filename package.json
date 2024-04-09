@@ -72,7 +72,10 @@
     "hw-9:task-1": "npx ts-node hw-9/task-1.ts",
     "hw-10:task-1": "npx ts-node hw-10/task-1.ts",
     "hw-10:task-2": "npx ts-node hw-10/task-2.ts",
-    "hw-10:task-3": "npx ts-node hw-10/task-3.ts"
-
+    "hw-10:task-3": "npx ts-node hw-10/task-3.ts",
+    "hw-12:task": "npx ts-node hw-12/car.ts",
+    "hw-12:task1": "npx ts-node hw-12/class1-car.ts",
+    "hw-12:task2": "npx ts-node hw-12/class2-car.ts",
+    "hw-12:task3": "npx ts-node hw-12/main.ts"
   }
 }
