@@ -13,14 +13,20 @@
     "node-fetch": "^3.3.2",
     "prettier": "^3.2.5",
     "tr46": "^0.0.3",
-    "typescript": "^5.4.4",
     "undici-types": "^5.26.5",
     "web-streams-polyfill": "^3.3.3",
     "webidl-conversions": "^3.0.1",
     "whatwg-url": "^5.0.0"
   },
   "devDependencies": {
-    "prettier": "3.2.5"
+    "@wdio/cli": "^8.38.1",
+    "@wdio/cucumber-framework": "^8.38.0",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0",
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "wdio-electron-service": "^6.6.1"
   },
   "scripts": {
     "hw-3:task-1": "npx ts-node hw-3/task-1.ts",
@@ -99,7 +105,8 @@
     "hw-12:task": "npx ts-node hw-12/car.ts",
     "hw-12:task1": "npx ts-node hw-12/class1-car.ts",
     "hw-12:task2": "npx ts-node hw-12/class2-car.ts",
-    "hw-12:task3": "npx ts-node hw-12/main.ts"
+    "hw-12:task3": "npx ts-node hw-12/main.ts",
+    "wdio": "wdio run ./Users/anna/Projects/hanna_dolbik_1/wdio.conf.ts"
   },
   "repository": {
     "type": "git",
