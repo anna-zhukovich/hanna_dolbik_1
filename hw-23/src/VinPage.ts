@@ -35,13 +35,7 @@ export class VinPage extends BasePage {
         return actualText;
     }
 
-    // async enterVinAndCheckErrorMessage(vin: string): Promise<void> {
-    //     await this.page.fill(this.vinInputField, vin);
-    //     await this.page.click(this.checkVinButton);
-    //     await this.page.waitForSelector(this.errorMessageWrongVin);
-    //     await this.page.waitForSelector(this.errorMessageWrongVin, { state: 'visible' });
-
-    // }
+    
 
 
 
