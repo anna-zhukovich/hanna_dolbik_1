@@ -1,0 +1,7 @@
+SELECT * FROM Customers WHERE City = "London";
+SELECT ContactName, CustomerName FROM Customers WHERE RIGHT(Address, 2) = '23';
+SELECT DISTINCT City FROM Customers;
+SELECT ContactName FROM Customers WHERE PostalCode LIKE '0%';	
+SELECT CustomerName FROM Customers WHERE NOT Country = 'USA';
+SELECT * FROM Customers WHERE Country = 'France' ORDER BY ContactName DESC;
+SELECT TOP 10 * FROM Customers WHERE Country = 'Germany' OR Country = 'USA';
