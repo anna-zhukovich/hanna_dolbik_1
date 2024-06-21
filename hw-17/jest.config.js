@@ -6,5 +6,5 @@ module.exports = {
     "js",
     "ts"
   ],
-  testMatch: ["**/*.superagent.spec.ts", "**/*.jest.spec.ts"]
+  testMatch: ["**/*.jest.spec.ts"]
 };
