@@ -1,19 +1,22 @@
 {
-	"compilerOptions": {
-		"target": "es2016",
-		"lib": ["es6"],
-		"module": "commonjs",
-		"types": [
-			"@types/mocha",
-			"@types/chai",
-			"@types/node",
-			"@types/jest"
-		],
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"noImplicitAny": false,
-		"allowJs": true,
-		"checkJs": false
-	}
+    "compilerOptions": {
+        "target": "es2016",
+        "lib": ["es6"],
+        "module": "commonjs",
+        "types": [
+            "@types/mocha",
+            "@types/chai",
+            "@types/node",
+            "@types/jest",
+            "@types/superagent"
+        ],
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "checkJs": false
+    }
 }
+
+
