@@ -1,0 +1,16 @@
+{
+  "name": "hw-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "playwright_test1": "playwright test --config=./playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.1"
+  }
+}
