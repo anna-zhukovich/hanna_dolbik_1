@@ -6,7 +6,7 @@ module.exports = {
     "js",
     "ts"
   ],
-  testMatch: ["**/uitests.ts/**/tests.ts"],
+  testMatch: ["**/tests/**/*.ts"],
   testTimeout: 30000
   
 }; 
