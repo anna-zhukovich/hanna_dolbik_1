@@ -1,0 +1,4 @@
+SELECT FirstName, LastName, Notes FROM Employees WHERE LastName = 'Leverling';
+SELECT * FROM Employees WHERE YEAR(BirthDate) < 1960;
+SELECT BirthDate FROM Employees WHERE FirstName LIKE 'A%';
+SELECT FirstName, LastName, BirthDate FROM Employees ORDER BY BirthDate ASC;
