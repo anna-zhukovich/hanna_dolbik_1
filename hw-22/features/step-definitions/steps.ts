@@ -5,22 +5,26 @@ import { LoginPage } from '../pageobjects/login.page.js';
 import { MainPage } from '../pageobjects/main-page.js';
 import SecurePage from '../pageobjects/secure.page.js';
 import PageFactory from '../pageobjects/page-factory.js';
+import { logger } from '../../support/logger.js';
+
 
 
 let loginPage;
 let mainPage;
 
 Before(async () => {
+    //logger.info('Initializing page objects before the test');
     loginPage = PageFactory.getPage('login') as LoginPage;
     mainPage = PageFactory.getPage('main') as MainPage;
 })
 
 
 Given(/^I am on the (\w+) page$/, async (pagename) => {
-   const page = PageFactory.getPage(pagename);
-   if (page !== undefined) {
-    await page.open();
-   }
+    logger.info(`Navigating to the ${pagename} page`);
+    const page = PageFactory.getPage(pagename);
+    if (page !== undefined) {
+        await page.open();
+    }
 });
 
 
