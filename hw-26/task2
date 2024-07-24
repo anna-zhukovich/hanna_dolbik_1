@@ -1,0 +1,6 @@
+SELECT * FROM Products WHERE ProductName LIKE 'M%';
+SELECT Unit FROM Products WHERE ProductName ='Steeleye Stout';
+SELECT ProductName FROM Products WHERE Price > 22;
+SELECT * FROM Products WHERE Unit LIKE '%500250 g%';
+SELECT * FROM Products WHERE Unit LIKE '%bottles%';
+SELECT * FROM Products WHERE SupplierID = 7 ORDER BY Price DESC;
